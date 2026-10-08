@@ -22,3 +22,10 @@ npm run dev
 The application runs on:
 
 http://localhost:3000
+
+## Project Features
+
+- User-friendly travel buddy search
+- Travel-related information management
+- Backend API using Express.js
+- MongoDB database connectivity
