@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Travel Buddy Finder</title>
+
+    <style>
+        body {
+            font-family: Arial;
+            background: #f2f2f2;
+        }
+
+        .box {
+            width: 400px;
+            margin: 50px auto;
+            background: white;
+            padding: 25px;
+            border-radius: 10px;
+        }
+
+        h1 {
+            text-align: center;
+            color: #007bff;
+        }
+
+        h3 {
+            text-align: center;
+            color: #555;
+        }
+
+        input, select, button {
+            width: 100%;
+            padding: 10px;
+            margin: 8px 0;
+            box-sizing: border-box;
+        }
+
+        button {
+            background: #007bff;
+            color: white;
+            border: none;
+            cursor: pointer;
+        }
+    </style>
+</head>
+
+<body>
+
+<div class="box">
+
+    <h1>Travel Buddy Finder</h1>
+    <h3>Find a Buddy for Your Next Journey</h3>
+
+    <form action="/travel" method="POST">
+
+        <input
+            type="text"
+            name="name"
+            placeholder="Enter Name"
+            required>
+
+        <input
+            type="text"
+            name="destination"
+            placeholder="Enter Destination"
+            required>
+
+        <input
+            type="date"
+            name="travelDate"
+            required>
+
+        <select name="travelMode" required>
+            <option value="">Select Travel Mode</option>
+            <option value="Bus">Bus</option>
+            <option value="Train">Train</option>
+            <option value="Flight">Flight</option>
+            <option value="Car">Car</option>
+        </select>
+
+        <button type="submit">Find Travel Buddy</button>
+
+    </form>
+
+</div>
+
+</body>
+</html>
