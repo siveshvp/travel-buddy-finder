@@ -29,3 +29,15 @@ http://localhost:3000
 - Travel-related information management
 - Backend API using Express.js
 - MongoDB database connectivity
+
+## Future Enhancements
+
+- Add advanced travel matching
+- Improve user profile management
+- Add real-time travel buddy communication
+
+## Future Enhancements
+
+- Add advanced travel matching
+- Improve user profile management
+- Add real-time travel buddy communication
